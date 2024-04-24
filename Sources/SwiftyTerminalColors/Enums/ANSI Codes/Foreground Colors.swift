@@ -18,7 +18,7 @@ public enum ANSIColor: String
     case cyan = "\u{001B}[36m"
     case white = "\u{001B}[37m"
     
-    case blackBright = "\u{001B}[90m"
+    case gray = "\u{001B}[90m"
     case redBright = "\u{001B}[91m"
     case greenBright = "\u{001B}[92m"
     case yellowBright = "\u{001B}[93m"
