@@ -1,6 +1,6 @@
-# SwiftyTerminalColors: Colorize your CLIs the Swift way
+# Colorize your CLIs the Swift way
 
-This package allows you to change colors and fonts of your CLI outputs in a familiar, SwiftUI-like way.
+SwiftyTerminalColors allows you to change colors and fonts of your CLI outputs in a familiar, SwiftUI-like way.
 
 ## Quick Example
 
@@ -87,7 +87,7 @@ extension String
 }
 ```
 
-![Colorful help example](https://files.catbox.moe/5fg2z9.jpg)
+![Colorful help example](https://files.catbox.moe/gyuk5v.png)
 
 ## Roadmap
 
@@ -95,3 +95,7 @@ These features will be added in the future:
 
 - [ ] Support for RGB colors
 - [ ] Any other ideas you might have :)
+
+## License
+
+This library is licensed under [CC BY-ND 4.0 DEED](https://creativecommons.org/licenses/by-nd/4.0/)
