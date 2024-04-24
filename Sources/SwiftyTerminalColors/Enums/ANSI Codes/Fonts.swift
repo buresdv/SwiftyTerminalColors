@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum ANSIFont: String
+public enum ANSIFont: String
 {
     case bold = "\u{001B}[1m"
     case italic = "\u{001B}[3m"

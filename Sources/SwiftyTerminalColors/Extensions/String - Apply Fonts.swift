@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension String
+public extension String
 {
     func font(_ fonts: Set<ANSIFont>) -> String
     {
