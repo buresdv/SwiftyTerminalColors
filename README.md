@@ -21,24 +21,24 @@ And it's done!
 
 ## Overview
 
-The package provides two extensions on `String`, called `.color()` and `.font()`. As their names suggest, `.color()` lets you change the color of a particular string, and `.font()` accepts a set of possible fonts.
+The package provides three extensions on `String`, called `.color()`, `.background()` and `.font()`. As their names suggest, `.color()` lets you change the color of a particular string, `.background()` the background, and `.font()` accepts a set of possible fonts.
 
 ## Usage
 
 ### Basic Usage
 
-To change the formatting of a particular string, add `.color()` or `.font()` (in any order) to the end of it:
+To change the formatting of a particular string, add `.color()`, `.background()` or `.font()` (in any order) to the end of it:
 
 ```swift
 print("I will be green".color(.green))
 ```
 
 ```swift
-print("I will be blue".color(.blue))
+print("I will be blue".background(.blue))
 ```
 
 ```swift
-print("I will be bold".font([.bold]))
+print("I will be bold".font([.bold, .italic]).background(.red))
 ```
 
 ### Advanced Usage
